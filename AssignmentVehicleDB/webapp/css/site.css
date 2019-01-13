@@ -1,0 +1,124 @@
+body {
+	font-family: Verdana;
+	background-color: #EAEAEA;
+}
+
+#container {
+	margin-left: 15%;
+	margin-right: 15%;
+	height: auto;             
+}
+
+h1 {
+	text-align: center;
+}
+
+table   {        
+    overflow-x:auto;
+    font-size: 90%;
+    border-collapse: collapse;
+	border-radius: 10px;
+}	
+
+td, th {
+	border: 1px solid #ddd;
+ 	padding: 8px;
+}
+
+th {
+	background-color: #363636;
+	text-align: left;
+	color: white;
+
+}
+
+tr {
+	background-color: #EAEAEA;
+
+}
+
+tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+
+input[type=text], input[type=password] {
+  	padding: 5px 10px;
+  	margin: 8px 0;
+	border-radius: 2px;
+	border: 1.5px solid black;
+	width: 25%;
+}
+
+input[type=submit] {
+	padding: 7px 10px;
+  	width: 15%;
+  	border: 2px black;
+	border-radius: 2px;
+	background-color: #363636;
+	color: white;
+	font-size: 15px;
+}
+
+input[type=submit]:hover {
+	background-color: black;
+}
+
+#divInputs {
+	text-align: center;
+}
+
+#logoutBtn {
+	background-color: #ff0000;
+	color: white;
+	padding: 8px 14px;
+  	text-align: center;
+  	display: inline-block;
+  	text-decoration: none;
+}
+
+#logoutBtn:hover {
+	background-color: #bf0000;
+}
+
+#editBtn {
+	text-decoration: none;
+	background-color: #feb236;
+	padding: 4px 8px;
+	display: inline-block;
+	color: white;
+}
+
+#editBtn:hover {
+	background-color: #ff8c00;
+}
+
+#delBtn {
+	text-decoration: none;
+	background-color: #ff0000;
+	padding: 4px 8px;
+	display: inline-block;
+	color: white;
+}
+
+#delBtn:hover {
+	background-color: #bf0000;
+}
+
+#newvBtn {
+	text-decoration: none;
+	background-color: #b7d7e8;
+	padding: 8px 14px;
+	display: inline-block;
+	color: black;
+}
+
+#newvBtn:hover {
+	background-color: #87bdd8;
+}
+
+@media (max-width: 1250px) {
+	#container {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
